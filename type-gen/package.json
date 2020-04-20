@@ -1,0 +1,28 @@
+{
+  "name": "@01/ammo.ts",
+  "version": "0.0.2-3",
+  "description": "Ammo.js type generator",
+  "types": "build/ammo.d.ts",
+  "files": [
+    "builds"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kripken/ammo.js.git"
+  },
+  "author": "Nidin Vinayakan <01@01alchemist.com>",
+  "bugs": {
+    "url": "https://github.com/kripken/ammo.js/issues"
+  },
+  "homepage": "https://github.com/kripken/ammo.js",
+  "scripts": {
+    "build": "ts-node ./index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/webidl2": "^23.8.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "webidl2": "^23.8.2"
+  }
+}

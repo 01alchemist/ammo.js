@@ -1,3 +1,5 @@
 bullet/build
 *.diff
 
+.history
+node_modules
